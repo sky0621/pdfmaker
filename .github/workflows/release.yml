@@ -2,8 +2,8 @@ name: release
 
 on:
   push:
-    branches:
-      - 'main'
+    tags:
+      - "v*"
 
 jobs:
   release:
@@ -13,7 +13,6 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - run: echo "🎉"
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
