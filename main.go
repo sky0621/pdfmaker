@@ -32,7 +32,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if err := pdf.SetFont("Ubuntu-L", "", 24); err != nil {
+	if err := pdf.SetFont("Ubuntu-L", "", 38); err != nil {
 		log.Fatal(err)
 	}
 
