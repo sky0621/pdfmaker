@@ -1,3 +1,9 @@
 # pdfmaker
 
-test
+## try
+
+```
+./pdfmaker 5
+
+open sample.pdf
+```
