@@ -7,3 +7,5 @@
 
 open sample.pdf
 ```
+
+![sample.pdf](./pic/pdf.png)
